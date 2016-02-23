@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:h2:/tmp/tasklist-demoapp
+
+flyway:
+  locations: classpath:/database/migration
